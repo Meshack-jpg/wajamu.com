@@ -1,0 +1,47 @@
+*{
+    margin: 3;
+    padding: 2;
+}
+
+.btn{
+    
+    padding-left: 400px;
+    
+}
+.header{
+    padding-left: 170px;
+}
+
+.image{
+    padding-left: 50px;
+}
+
+.form{
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to top,rgba(6, 114, 146, 0.8)50%,rgba(9, 113, 145, 0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    border-radius: 30px;
+    padding: 28px;
+}
+
+.p{
+    animation-duration: 9s;
+    animation-name: slidein;
+    animation-iteration-count:inherit;
+    
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 200%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+

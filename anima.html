@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="anima.css">
+</head>
+<body>
+    <h1>my NAME</h1>
+
+    <!-- loader -->
+    <div id="container">
+        <div class="text">
+            <h1>Loading...</h1>
+        </div>
+        <div class="loading">
+            <div class="line-box">
+                <div class="line"></div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script>
+        var anim = document.getElementById("container");
+        window.addEventListener("anim", function(){
+            anim.style.display = "none";
+        })
+
+    </script>
+
+</body>
+</html>

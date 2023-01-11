@@ -1,0 +1,99 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            join wajamu
+        </title>
+        <link rel="stylesheet" href="join_style.css">
+    </head>
+    <body style="background-color: rgb(8, 238, 19);">
+
+        <form action="register.php" method="post" id="my_form">
+            <div>
+                <div class="header"> 
+                    <h1>WELCOME TO WAJAMU SELF SPONSORED GROUP</h1>
+                </div>
+                
+                <div class="btn">
+                    <!-- <button style="background-color: rgb(213, 216, 30)" class="cn"><a  href="service.html"> Service </a></button>
+                    <button style="background-color: rgb(213, 216, 30)" class="cn"><a  href="contact.html"> Contact </a></button>
+                    <button style="background-color: rgb(213, 216, 30)" class="cn"><a  href="log.html"> Login </a></button>
+                    <button style="background-color: rgb(213, 216, 30)" class="cn"><a  href="home.html"> Home </a></button> <br> <br> -->
+
+                    
+                </div>
+
+                <fieldset style="background-color:rgb(217, 255, 0); ">
+                    <legend style="font-size: 36 ; color: rgb(0, 5, 1) " style="font-size: 20;">Personal Information </legend>
+                    <div class="p">
+                        
+                    <label for="fname" style="font-size: 20;" > FIRST NAME         </label>
+                    <input type="text" name="txtfname" id="fname" placeholder="first name" required style="font-size: 20;"> 
+                
+                    <label for="lname"  style="font-size: 24;"> LAST NAME         </label>
+                    <input type="text" name="txtlname" id="lname" placeholder="last name" required  style="font-size: 20;"> 
+
+                    <label for="contact" style="font-size: 20;"> CONTACT</label>
+                    <input type="text" name="txtcontact", id="contact" placeholder="07xxxxxxxx" required pattern="[0]{1}[7|1]{1}[0-9]{8}" style="font-size: 20;"> <br> <br>
+
+                    <label for="password"  style="font-size: 20;"> PASSWORD</label>
+                    <input type="password" name="txtpassword"  id="password" required style="font-size: 20;"> 
+
+                    <label for="password2"  style="font-size: 20;">REPEAT PASSWORD</label>
+                    <input type="password" name="txtpassword2"  id="password2" required style="font-size: 20;"> 
+
+                    <label for="date" style="font-size: 20;">DATE</label>
+                    <input type="date"  id="date" name="txtdate" required style="font-size: 20;"> <br> <br>
+
+                    <label name="txtgender" id="gender" style="font-size: 20;" style="font-size: 20;"> GENDER   </label> <br>
+    
+                    <input type="radio" id="male" name="txtgender"  style="font-size: 24;">
+                    <label  for="male" style="font-size: 24;"> Male   </label>
+                    <br>
+                
+                
+                    <input type="radio" id="female" name="txtgender"  style="font-size: 20;">
+                    <label for="female" style="font-size: 20;"> Female   </label><br> 
+
+                    <input type="radio" id="others" name="txtgender" style="font-size: 20;">
+                    <label for="others" style="font-size: 20;"> Others   </label><br> <br>
+
+                    <label for="res" style="font-size: 20;">RESIDENT</label>
+                    <select name="txtresident" id="res" style="font-size: 20;">
+                        <option value="KITALE">Kitale</option>
+                        <option value="BUNGOMA">Bungoma</option>
+                        <option value="KAKAMEGA">Kakamega</option>
+                        <option value="NAIROBI">Nairobi</option>
+                    </select>
+                    <br> <br>
+                
+
+                    <textarea for="comment" required name="txtcomment" placeholder="last name">  </textarea> <br> <br>
+                
+                    <input type="checkbox" id="terms" required style="font-size: 20;">
+                    <label for="terms" style="font-size: 20;">I accept terms and condition</label> <br> <br>
+
+                    <button style="background-color: indigo ;">
+                        <input style="background-color:rgb(0, 255, 42); font-size: 20;" type="submit" value="Submit"> 
+                    </button>
+
+                    <button style="background-color:blueviolet">
+                        <input type = "reset" value="Reset"  style="background-color:rgb(6, 202, 202); color:brown; font-size: 20;">
+                    </button>
+
+                    <button style="background-color: rgb(30, 188, 216);"  class="cn"><a style="font-size: 20;" href="log.html"> Login </a></button><br> <br>
+                    
+                </fieldset>
+            </div>
+
+        </form>
+              
+    
+     <!-- <script src="clr.js"></script> -->
+
+
+
+    </body>
+</html>
+
